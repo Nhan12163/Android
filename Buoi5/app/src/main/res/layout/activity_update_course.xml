@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateCourse">
+ <EditText
+     android:id="@+id/UDnamecourse"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="8dp"
+     android:hint="Enter name course "
+     ></EditText>
+    <EditText
+        android:id="@+id/UDdecriptioncourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter decription course "
+        ></EditText>
+    <EditText
+        android:id="@+id/UDdurationcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter duration course "
+        ></EditText>
+    <EditText
+        android:id="@+id/UDtrackcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter track course "
+        ></EditText>
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"></Button>
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"></Button>
+</LinearLayout>
